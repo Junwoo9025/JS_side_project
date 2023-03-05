@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.header {
+  background-color: #ffb347;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 4rem;
+  text-shadow: 2px 2px 2px #333;
+}
+
+.word-display {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 50px;
+  color: #ff6961;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.word-input-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.word-input {
+  font-size: 3rem;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  text-align: center;
+  width: 400px;
+  background-color: #fffafa;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.word-input:focus {
+  border-color: #ffb347;
+  box-shadow: 0 0 5px #ffb347;
+}
+
+.game-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.game-info div {
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.button {
+  background-color: #ff6961;
+  color: #fff;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 5px #333;
+}
+
+.button:hover {
+  background-color: #ffb347;
+  color: #333;
+}
+
+.loading {
+  opacity: 0.5;
+  pointer-events: none;
+}

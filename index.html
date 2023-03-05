@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale-1.0" />
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="type.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Become a type master</h1>
+    </div>
+
+    <div class="word-display">Hello</div>
+
+    <div class="word-input-box">
+      <input type="text" class="word-input" />
+    </div>
+
+    <div class="game-info">
+      <div>Time remaining: <span class="time">0</span> second</div>
+      <div>earned points: <span class="score">0</span> score</div>
+    </div>
+    <button class="button loading" onclick="run()">loading the game...</button>
+  </body>
+</html>
